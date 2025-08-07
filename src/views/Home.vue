@@ -211,10 +211,15 @@
       </div>
     </div>
   </div>
+  <FooterBar/>
 </template>
 
 <script>
+import FooterBar from '@/components/FooterBar.vue';
 export default {
   name: 'HomePage',
+  components: {
+    FooterBar
+  }
 }
 </script>

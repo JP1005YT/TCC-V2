@@ -15,6 +15,13 @@
   --minha-cor-verde: rgb(5, 155, 165);
 }
 
+.text-primary {
+  color: var(--minha-cor-azul);
+}
+.bg-primary {
+  background-color: var(--minha-cor-azul);
+}
+
 /* Gradientes personalizados */
 .gradient {
   background: linear-gradient(45deg, var(--minha-cor-azul), var(--minha-cor-verde));
